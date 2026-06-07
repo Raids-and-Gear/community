@@ -1,0 +1,101 @@
+name: Bug report
+description: Something is broken or behaving wrong in the game.
+title: 'bug: '
+labels: ['type:bug', 'status:triage']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. The single most useful thing you can give us is a **repro**:
+        biome + procgen seed + what you did + what happened.
+
+        Never share your wallet seed phrase or private key — we will never ask for it. A
+        **public** wallet address is fine if it helps.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Clear description of the bug and its impact.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Picked biome …, seed …
+        2. Did …
+        3. Saw …
+    validations:
+      required: true
+  - type: dropdown
+    id: biome
+    attributes:
+      label: Biome (if gameplay)
+      options:
+        - Not applicable
+        - Toxic Wasteland
+        - Overgrown City
+        - Sky Rig
+        - Other / unsure
+    validations:
+      required: false
+  - type: input
+    id: seed
+    attributes:
+      label: Procgen seed
+      description: Shown in the in-game HUD. Critical for reproducing layout/loot bugs.
+    validations:
+      required: false
+  - type: input
+    id: build
+    attributes:
+      label: Build hash or URL
+      description: The version string in the HUD/footer, or the URL you were on.
+    validations:
+      required: false
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where is it?
+      options:
+        - Not sure
+        - Web client (rendering, UI, input)
+        - Wallet / transactions
+        - Multiplayer / co-op
+        - Marketplace
+        - Leaderboard
+        - Faucet
+    validations:
+      required: false
+  - type: input
+    id: env
+    attributes:
+      label: Browser / OS
+      placeholder: e.g. Chrome 124 on macOS 14
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Console errors / screenshots
+      description: Paste any browser console errors or attach a screenshot/clip.
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you file
+      options:
+        - label: I searched existing issues and this isn't a duplicate.
+          required: true
+        - label: This is NOT a security vulnerability (those go to SECURITY.md, privately).
+          required: true
+        - label: I did not include any seed phrase or private key.
+          required: true

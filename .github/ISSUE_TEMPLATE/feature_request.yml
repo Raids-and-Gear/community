@@ -1,0 +1,53 @@
+name: Feature request / idea
+description: Suggest a new feature, content, or improvement.
+title: 'idea: '
+labels: ['type:idea', 'status:triage']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ideas are welcome. The strongest ones start from a real problem, not a solution.
+        We triage every idea and give a public yes / not-now / no with a reason. For
+        open-ended brainstorming, Discussions → Ideas is often a better fit than an issue.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: The player need or pain point. "As a player, I can't … so I …"
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+    validations:
+      required: false
+  - type: dropdown
+    id: area
+    attributes:
+      label: Roughly what area?
+      options:
+        - Not sure
+        - Gameplay / combat
+        - Loot / progression
+        - Multiplayer / co-op
+        - Marketplace
+        - Leaderboard / seasons
+        - Onboarding / wallet
+        - Art / audio
+        - Community / tooling
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you file
+      options:
+        - label: I searched existing issues and this isn't a duplicate.
+          required: true

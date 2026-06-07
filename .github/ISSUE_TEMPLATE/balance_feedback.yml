@@ -1,0 +1,56 @@
+name: Balance / economy feedback
+description: Something feels unfair, grindy, exploitable, or off in loot, combat, or the economy.
+title: 'balance: '
+labels: ['type:balance', 'status:triage']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Balance and economy changes are decided carefully and conservatively — concrete
+        numbers and a seed make your case far stronger than a vibe.
+  - type: dropdown
+    id: area
+    attributes:
+      label: What's out of balance?
+      options:
+        - Loot rolls / rarity
+        - Enemy / faction difficulty
+        - Boss fight
+        - Weapon / gear stats
+        - Faucet
+        - Marketplace pricing / fees
+        - Leaderboard / seasons
+        - Token economy ($RNG flow)
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: whats-off
+    attributes:
+      label: What feels off, and why?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Numbers, a procgen seed, a screenshot, a repeatable scenario — anything concrete.
+      placeholder: e.g. "Sky Rig boss enrage out-DPSes a full squad at wave 3, repro seed 8412"
+    validations:
+      required: false
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested change (optional)
+      description: What would you tune, and what do you think it would affect?
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you file
+      options:
+        - label: I searched existing issues and this isn't a duplicate.
+          required: true
+        - label: I understand accepted changes are made conservatively and may be declined with a reason.
+          required: false
