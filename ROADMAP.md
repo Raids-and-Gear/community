@@ -21,12 +21,12 @@ Items we won't do are closed with a **respectful, public reason** rather than le
 Exact dates and unreleased content specifics. We share direction, not a contract: a
 roadmap is a statement of intent that changes as we learn from your feedback. Big beats
 (new biomes, co-op scoring, seasons) get announced in
-[Discussions → Announcements](https://github.com/Raids-and-Gear/issues/discussions)
+[Discussions → Announcements](https://github.com/Raids-and-Gear/community/discussions)
 and on Discord.
 
 ## Want to influence it?
 
-[File an issue](https://github.com/Raids-and-Gear/issues/issues/new/choose) or
-join a [Discussion](https://github.com/Raids-and-Gear/issues/discussions). The
+[File an issue](https://github.com/Raids-and-Gear/community/issues/new/choose) or
+join a [Discussion](https://github.com/Raids-and-Gear/community/discussions). The
 items that ship are overwhelmingly the ones the community made a clear, well-evidenced
 case for.

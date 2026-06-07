@@ -8,13 +8,13 @@ taking part you agree to the [Code of Conduct](CODE_OF_CONDUCT.md).
 
 Pick the right lane and you'll get a faster answer:
 
-| You have…                             | Use                                                                                                                                                                      |
-| ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| A **bug**                             | [New issue → Bug report](https://github.com/Raids-and-Gear/issues/issues/new/choose)                                                                                     |
-| A **balance / economy** concern       | [New issue → Balance feedback](https://github.com/Raids-and-Gear/issues/issues/new/choose)                                                                               |
-| A **feature idea / general feedback** | [New issue → Feature request](https://github.com/Raids-and-Gear/issues/issues/new/choose) or [Discussions → Ideas](https://github.com/Raids-and-Gear/issues/discussions) |
-| A **question**                        | [Discussions → Q&A](https://github.com/Raids-and-Gear/issues/discussions) or Discord                                                                                     |
-| A **security vulnerability**          | **Do not open an issue.** Follow [`SECURITY.md`](SECURITY.md)                                                                                                            |
+| You have…                             | Use                                                                                                                                                                            |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| A **bug**                             | [New issue → Bug report](https://github.com/Raids-and-Gear/community/issues/new/choose)                                                                                        |
+| A **balance / economy** concern       | [New issue → Balance feedback](https://github.com/Raids-and-Gear/community/issues/new/choose)                                                                                  |
+| A **feature idea / general feedback** | [New issue → Feature request](https://github.com/Raids-and-Gear/community/issues/new/choose) or [Discussions → Ideas](https://github.com/Raids-and-Gear/community/discussions) |
+| A **question**                        | [Discussions → Q&A](https://github.com/Raids-and-Gear/community/discussions) or Discord                                                                                        |
+| A **security vulnerability**          | **Do not open an issue.** Follow [`SECURITY.md`](SECURITY.md)                                                                                                                  |
 
 A good report is specific. For gameplay bugs, include a **repro: biome + procgen seed +
 what you did + what happened.** Never share your wallet's seed phrase or private key — we
@@ -29,7 +29,7 @@ move across the [public roadmap](ROADMAP.md).
 
 ## Make something
 
-- **Clips, screenshots, fan art** → share in [Discussions → Show & Tell](https://github.com/Raids-and-Gear/issues/discussions) or Discord. The best get spotlighted.
+- **Clips, screenshots, fan art** → share in [Discussions → Show & Tell](https://github.com/Raids-and-Gear/community/discussions) or Discord. The best get spotlighted.
 - **Guides & tools** → post them; quality guides can qualify for the creator fund.
 - **Translations** → tell us at `community@raidsandgear.com` which language you can help with.
 

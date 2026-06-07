@@ -9,14 +9,14 @@ discussion** about Raids and Gear — the isometric action-RPG where you raid, l
 
 ## I want to…
 
-| …                                   | Go here                                                                                                                                                                   |
-| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Report a bug**                    | [New issue → Bug report](https://github.com/Raids-and-Gear/issues/issues/new/choose)                                                                                      |
-| **Flag a balance / economy issue**  | [New issue → Balance feedback](https://github.com/Raids-and-Gear/issues/issues/new/choose)                                                                                |
-| **Suggest a feature / idea**        | [New issue → Feature request](https://github.com/Raids-and-Gear/issues/issues/new/choose), or [Discussions → Ideas](https://github.com/Raids-and-Gear/issues/discussions) |
-| **Ask a question / chat**           | [Discussions](https://github.com/Raids-and-Gear/issues/discussions) or [Discord](https://discord.gg/raidsandgear)                                                         |
-| **Report a security vulnerability** | **Do not open a public issue.** Follow [`SECURITY.md`](SECURITY.md)                                                                                                       |
-| **See what's planned**              | [Roadmap](ROADMAP.md)                                                                                                                                                     |
+| …                                   | Go here                                                                                                                                                                         |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Report a bug**                    | [New issue → Bug report](https://github.com/Raids-and-Gear/community/issues/new/choose)                                                                                         |
+| **Flag a balance / economy issue**  | [New issue → Balance feedback](https://github.com/Raids-and-Gear/community/issues/new/choose)                                                                                   |
+| **Suggest a feature / idea**        | [New issue → Feature request](https://github.com/Raids-and-Gear/community/issues/new/choose), or [Discussions → Ideas](https://github.com/Raids-and-Gear/community/discussions) |
+| **Ask a question / chat**           | [Discussions](https://github.com/Raids-and-Gear/community/discussions) or [Discord](https://discord.gg/Btus6dtn8p)                                                              |
+| **Report a security vulnerability** | **Do not open a public issue.** Follow [`SECURITY.md`](SECURITY.md)                                                                                                             |
+| **See what's planned**              | [Roadmap](ROADMAP.md)                                                                                                                                                           |
 
 When you file a bug, the single most useful thing is a **repro**: biome + procgen seed
 (shown in the HUD) + what you did + what happened. **Never** share your wallet's seed
@@ -38,10 +38,6 @@ digest. One backlog, in the open.
 
 ## Links
 
-- Play: `raidsandgear.com`
-- Discord: [discord.gg/raidsandgear](https://discord.gg/raidsandgear)
-- X: [@raidsandgear](https://x.com/raidsandgear)
-- Status: `status.raidsandgear.com`
+- Play: `uat.raidsandgear.com` (devnet)
+- Discord: [discord.gg/Btus6dtn8p](https://discord.gg/Btus6dtn8p)
 - Contributing & community: [`CONTRIBUTING.md`](CONTRIBUTING.md)
-
-_Handles are being provisioned during launch — check the pinned Discussion for live links._

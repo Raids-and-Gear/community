@@ -7,7 +7,7 @@ canonical place to do that.
 ## TL;DR
 
 - **Found a vulnerability? Email [security@raidsandgear.com](mailto:security@raidsandgear.com)** or open a private
-  [GitHub Security Advisory](https://github.com/Raids-and-Gear/issues/security/advisories/new).
+  [GitHub Security Advisory](https://github.com/Raids-and-Gear/community/security/advisories/new).
 - **Do not** open a public issue, post it in Discord, or exploit it on mainnet.
 - Test only against **devnet** or a **local validator** — never with third parties' funds.
 - Good-faith research under this policy is authorized; we will not pursue legal action (safe harbor, below).

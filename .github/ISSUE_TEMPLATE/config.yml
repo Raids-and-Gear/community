@@ -1,11 +1,11 @@
 blank_issues_enabled: false
 contact_links:
   - name: Security vulnerability (do NOT open a public issue)
-    url: https://github.com/Raids-and-Gear/issues/security/advisories/new
+    url: https://github.com/Raids-and-Gear/community/security/advisories/new
     about: Report security issues privately. See SECURITY.md. Email security@raidsandgear.com.
   - name: Questions & chat (Discussions)
-    url: https://github.com/Raids-and-Gear/issues/discussions
+    url: https://github.com/Raids-and-Gear/community/discussions
     about: For "how do I…" questions, ideas, and showing off clips and art.
   - name: Discord — live community
-    url: https://discord.gg/raidsandgear
+    url: https://discord.gg/Btus6dtn8p
     about: Wallet help, squad-finding, and real-time discussion.
